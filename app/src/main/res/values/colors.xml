@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#3F883B</color>3F883B
+
+    F58649
+    <color name="organe">#FFA828</color>02559C
+    <color name="organe1">#F58649</color>3F883B
+    FBDFDB
+    <color name="organe2">#FBDFDB</color>EA7C68
+    <color name="organe3">#EA7C68</color>EA7C68
+
+
+
+
+    <color name="blue">#B2F1FE</color>02559C
+    <color name="blue2">#17B9E5</color>
+    <color name="blue3">#0BB9FD</color>00D0F9
+    <color name="blue5">#00D0F9</color>00D0F9
+    <color name="blue6">#2D4973</color>00D0F9
+
+
+
+    <color name="gray">#DFE1E3</color>F8F7F7
+    <color name="gray1">#F8F7F7</color>
+
+    <color name="bg">#C5C5C5</color>
+</resources>

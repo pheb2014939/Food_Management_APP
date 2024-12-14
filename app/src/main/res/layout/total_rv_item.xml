@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="13dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!--text view for our course tracks-->
+            <TextView
+                android:id="@+id/idTVCourseTracks"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+
+                android:text="Đã nhận hàng thành công"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <!--text view for our course duration-->
+            <TextView
+                android:id="@+id/daThanhToan"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_border2"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="Đã thanh toán "
+                android:textColor="@color/green" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txtMahd"
+            android:layout_margin="3dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Mã:"
+            android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/idTVMa"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_marginEnd="45dp"
+                android:padding="3dp"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idTVTenmon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="1"
+                android:visibility="gone"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/idTVTenKH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="1"
+                android:visibility="gone"
+
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/idTVSL"
+                android:layout_width="0dp"
+                android:layout_margin="3dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="1"
+                android:textColor="@color/black" />
+
+
+
+            <!--text view for our course duration-->
+            <TextView
+                android:id="@+id/daThanhToan1"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_border3"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="Xem chi tiết"
+                android:textColor="@color/blue3" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txtTongTien"
+                android:layout_margin="3dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="Đã thanh toán:"
+                android:textColor="@color/black" />
+
+
+            <!--text view for our course duration-->
+            <TextView
+                android:id="@+id/idTVTongTien"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:padding="3dp"
+
+                android:text="153,000 "
+                android:textColor="@color/organe3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btndaThanhToan1"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_border4"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="Xoá hoá đơn"
+                android:textColor="@color/organe3" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
